@@ -1,0 +1,21 @@
+.header {
+    margin-bottom: 80px;
+    padding-bottom: 56px;
+    padding-top: 10px;
+    &-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 400;
+        transition: linear 0.2s;    
+    }
+    @media screen and (max-width: 1023px) {
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+    }
+    
+    @media screen and (max-width: 767px) {
+        margin-bottom: 30px;
+    }
+    
+}
